@@ -1,0 +1,147 @@
+/*Accueil*/
+body {
+  background-color: bisque;
+}
+
+nav {
+  border: solid;
+  height: 20px;
+  padding: 10px;
+  border-color: darkgray;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  border: solid;
+  background-color: darkcyan;
+  padding-left: 20px;
+}
+
+article {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  border: solid;
+  border-radius: 30px 30px 30px 30px;
+  background-color: darkcyan;
+  padding: 10px;
+}
+
+h1 {text-align: center;}
+
+h2 {text-align: center;}
+
+/*Visuel*/
+
+button {
+  border-radius: 30px 30px 30px 30px;
+  background-color: lightslategray;
+}
+
+button:hover {background-color: lightgray; transition: 0.3s;
+cursor: pointer;;}
+
+img {
+  border-radius: 80px 0px 80px 0px;
+}
+
+video {
+  border: solid;
+  background-color: black;
+  border-radius: 30px 30px 30px 30px;
+}
+
+
+
+/*Flexbox*/
+
+.box {
+  border: solid;
+  border-radius: 30px 0 30px 0;
+  background-color: darkcyan;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: row;
+  column-gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  border: solid;
+  border-radius: 30px 0 30px 0;
+  background-color: darkcyan;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: row;
+  column-gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box3 {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: row;
+  column-gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box4 {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box5 {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: row;
+  column-gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boxExecutive {
+  border: solid;
+  border-radius: 30px 0 30px 0;
+  background-color: darkcyan;
+  padding: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  flex-direction: column;
+  column-gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boxSmall {display: flex;
+flex-direction: row;
+}
+
+.boxPicture {display: flex; flex-direction: row; align-content: center; margin-left: 200px; margin-right: 200px;}
